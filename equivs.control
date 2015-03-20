@@ -1,0 +1,16 @@
+Section: misc
+Priority: optional
+Homepage: https://github.com/nalipaz/autorandr
+Standards-Version: 3.9.2
+Package: autorandr
+Version: 1.0
+Maintainer: Nicholas Alipaz <nicholas@alipaz.net>
+Depends: bash
+Architecture: all
+Changelog: debian/changelog
+Readme: README.md
+Files: autorandr /usr/bin/
+ auto-disper /usr/bin/
+ pm-utils/40autorandr /etc/pm/sleep.d/
+ bash_completion/autorandr /etc/bash_completion.d/
+Description: Poll xrandr for layout changes and run a command
