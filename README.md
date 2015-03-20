@@ -1,13 +1,16 @@
-Tool: "autorandr"
-
+autorandr
+=========
 Automatically select a display configuration based on connected devices
 
 Stefan Tomanek <stefan.tomanek@wertarbyte.de>
+Packaged by Nicholas Alipaz <nicholas@alipaz.net>
 
 How to use:
 
 Save your current display configuration and setup with:
- $ autorandr --save mobile
+```
+$ autorandr --save mobile
+```
 
 Connect an additional display, configure your setup and save it:
  $ autorandr --save docked
