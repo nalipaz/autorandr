@@ -1,0 +1,4 @@
+#!/bin/sh -e
+set -e
+exec bash
+exit 0
