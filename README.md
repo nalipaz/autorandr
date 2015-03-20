@@ -1,7 +1,7 @@
 autorandr
 =========
 Automatically select a display configuration based on connected devices.  
-*This fork is a version of the original bash project.  It cleans up some things and restructures so that it can be built as a debian package using equivs.*
+*This fork is a version of the original bash project.  It cleans up some things and restructures so that it can be built as a debian package using equivs. - Nicholas*
 
 Stefan Tomanek <stefan.tomanek@wertarbyte.de>  
 Packaged by Nicholas Alipaz <nicholas@alipaz.net>
