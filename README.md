@@ -1,11 +1,26 @@
 autorandr
 =========
-Automatically select a display configuration based on connected devices
+Automatically select a display configuration based on connected devices.  
+*This fork is a version of the original bash project.  It cleans up some things and restructures so that it can be built as a debian package using equivs. - Nicholas*
 
-Stefan Tomanek <stefan.tomanek@wertarbyte.de>
+Stefan Tomanek <stefan.tomanek@wertarbyte.de>  
 Packaged by Nicholas Alipaz <nicholas@alipaz.net>
 
-How to use:
+### Installation
+Just grab the latest .deb file from the [releases page](https://github.com/nalipaz/autorandr/releases/] and run:
+```
+sudo dpkg -i [file]
+```
+
+Alternatively, you can build this project by using the latest code in master and the debian package `equivs`.
+```
+git clone [this repo]
+cd autorandr
+equivs-build -f autorandr
+sudo dpkg -i autorandr*.deb
+```
+
+### How to use
 
 Save your current display configuration and setup with:
 ```
