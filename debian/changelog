@@ -1,3 +1,9 @@
+autorandr (1.1) stable; urgency=medium
+
+  * Add postinst script to make bash completion work immediately.
+
+ -- Nicholas Alipaz <nicholas@alipaz.net>  Fri, 20 Mar 2015 11:03:11 -0700
+
 autorandr (1.0) stable; urgency=medium
 
   * Initial release.
